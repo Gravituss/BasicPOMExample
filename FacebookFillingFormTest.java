@@ -13,7 +13,7 @@ public class FacebookFillingFormTest {
 		
 		FacebookHomePageObjects page = new FacebookHomePageObjects(driver);
 		
-		page.txtEmail.sendKeys("Selenium");
+		page.txtEmail.sendKeys("selenium@gmail.com");
 		page.txtPass.sendKeys("Selen546m");	
 		
 		page.txtName.sendKeys("Bob");
